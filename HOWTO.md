@@ -1,6 +1,6 @@
-# HOW TO USE THIS
+# How-to Guide
 
-The KSlib repository is a place you can obtain useful examples
+The KSLib repository is a place you can obtain useful examples
 created by past contributors, be they users of the kOS mod,
 or in some cases the original developers of the kOS mod.
 
@@ -8,8 +8,8 @@ Read the examples and copy the files
 you want to use into your Ships/Scripts directory of your
 Kerbal Space Program installation and use them from there.
 
-We do ask that for people submitting a suite of libraries
-designed to work together, that they try to follow these
+We do ask that people submitting a suite of libraries
+designed to work together try to follow these
 general patterns:
 
   1. Try to break things up into smaller files.  A person trying
@@ -19,31 +19,31 @@ general patterns:
      submit them.  Put the examples in the example folder and
      the actual library files they call in the library folder.
 
-## Project Folder Layout:
+## Project Folder Layout
 
-  * library/
-    * The place where the actual .ks files people can copy into their
+* library/
+  * The place where the actual .ks files people can copy into their
       own installations go.
-  * examples/
-    * The place where examples of scripts that call a library function
+* examples/
+  * The place where examples of scripts that call a library function
       can go.
-  * doc/
-    * A place for you to describe your library and how to use it, in
-      textual form, using ascii text, or Github markdown files (.md).
-  * games/
-    * A place to find kOS games written in kerboscript, more detailed information can be found in the README.md file with in the games folder
-  * library_ksm/
-    * The place where the .ksm files of your library go.
+* doc/
+  * A place for you to describe your library and how to use it, in
+      ASCII text or GitHub markdown files (.md).
+* games/
+  * A place to find kOS games written in KerboScript.  More detailed information can be found in the README.md file within the games folder
+* library_ksm/
+  * The place where the .ksm files of your library go.
       This directory **must not** contain files people can compile
       locally from .ks files of your library. It is only for files made
       or modified by external programs to allow stuff that isn't possible
-      in kerboscript but is possible in opcode. It is **highly recommended**
+      in KerboScript but is possible in opcode. It is **highly recommended**
       to minimize the amount of code placed in here because:
-      * Backwards compatibility for .ksm files is not guarantied
+    * Backwards compatibility for .ksm files is not guarantied
         (e.g. some significant parser changes might break all old .ksm files).
-      * It is a lot more difficult to modify and improve .ksm files when compared to .ks scripts.
+    * It is a lot more difficult to modify and improve .ksm files when compared to .ks scripts.
 
-## Credit:
+## Credit
 
 If you want to have proper kudos and credit for a thing you invented,
 you are welcome to insert a comment in the script announcing that you

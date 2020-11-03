@@ -1,7 +1,7 @@
 // lib_term.md 
 // Copyright © 2015 KSLib team 
 // Lic. MIT
-// Original starting work by Github user: Dunbaratu
+// Original starting work by GitHub user: Dunbaratu
 
 ## lib_term
 

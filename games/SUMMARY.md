@@ -1,6 +1,6 @@
 # Summary
 
-This is a summary of all games found in KSlib
+This is a summary of all games found in KSLib
 
 ### Game of Ur
 

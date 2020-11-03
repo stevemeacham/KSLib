@@ -1,7 +1,7 @@
 // example_lib_term_clock.ks 
 // Copyright © 2015,2019 KSLib team 
 // Lic. MIT
-// Original starting work by Github user: Dunbaratu
+// Original starting work by GitHub user: Dunbaratu
 
 // Example that uses some of the lib_term line drawing
 // routines to make a Kerbal clock showing the current
